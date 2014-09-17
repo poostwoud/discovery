@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uber version="1.0">
+	<data rel="self" url="http://example.org/friends/"/>
+	<data id="collection" name="collection" rel="collection" url="http://example.org/friends/">
+		<data name="version" rel="latest-version">1.0</data>
+		<data name="links" rel="feed" url="http://example.org/friends/rss"/>
+		<data name="items" rel="item" url="http://example.org/friends/jdoe">
+			<data name="data">
+				<data name="full-name">J. Doe</data>
+				<data name="prompt">Full Name</data>
+			</data>
+			<data name="data">
+				<data name="email">jdoe@example.org</data>
+				<data name="prompt">Email</data>
+			</data>
+			<data name="links" rel="blog" url="http://examples.org/blogs/jdoe">
+				<data name="prompt">Blog</data>
+			</data>
+			<data name="links" rel="avatar" url="http://examples.org/images/jdoe">
+				<data name="prompt">Avatar</data>
+			</data>
+			<data name="template" rel="edit" url="http://example.org/friends/jdoe" model="?full-name={full-name}&amp;email={email}&amp;blog={blog}&amp;avatar={avatar}" action="">
+				<data name="prompt">Update item</data>
+				<data name="data">
+					<data name="full-name"/>
+					<data name="prompt">Full Name</data>
+				</data>
+				<data name="data">
+					<data name="email"/>
+					<data name="prompt">Email</data>
+				</data>
+				<data name="data">
+					<data name="blog"/>
+					<data name="prompt">Blog</data>
+				</data>
+				<data name="data">
+					<data name="avatar"/>
+					<data name="prompt">Avatar</data>
+				</data>
+			</data>
+			<data rel="delete" url="http://example.org/friends/jdoe" action="remove">
+				<data name="prompt">Delete item</data>
+			</data>
+		</data>
+		<data name="items" rel="item" url="http://example.org/friends/msmith">
+			<data name="data">
+				<data name="full-name">M. Smith</data>
+				<data name="prompt">Full Name</data>
+			</data>
+			<data name="data">
+				<data name="email">msmith@example.org</data>
+				<data name="prompt">Email</data>
+			</data>
+			<data name="links" rel="blog" url="http://examples.org/blogs/msmith">
+				<data name="prompt">Blog</data>
+			</data>
+			<data name="links" rel="avatar" url="http://examples.org/images/msmith" transclude="true">
+				<data name="prompt">Avatar</data>
+			</data>
+			<data name="template" rel="edit" url="http://example.org/friends/msmith" model="?full-name={full-name}&amp;email={email}&amp;blog={blog}&amp;avatar={avatar}" action="">
+				<data name="prompt">Update item</data>
+				<data name="data">
+					<data name="full-name"/>
+					<data name="prompt">Full Name</data>
+				</data>
+				<data name="data">
+					<data name="email"/>
+					<data name="prompt">Email</data>
+				</data>
+				<data name="data">
+					<data name="blog"/>
+					<data name="prompt">Blog</data>
+				</data>
+				<data name="data">
+					<data name="avatar"/>
+					<data name="prompt">Avatar</data>
+				</data>
+			</data>
+			<data rel="delete" url="http://example.org/friends/msmith" action="remove">
+				<data name="prompt">Delete item</data>
+			</data>
+		</data>
+		<data name="items" rel="item" url="http://example.org/friends/rwilliams">
+			<data name="data">
+				<data name="full-name">R. Williams</data>
+				<data name="prompt">Full Name</data>
+			</data>
+			<data name="data">
+				<data name="email">rwilliams@example.org</data>
+				<data name="prompt">Email</data>
+			</data>
+			<data name="links" rel="blog" url="http://examples.org/blogs/rwilliams">
+				<data name="prompt">Blog</data>
+			</data>
+			<data name="links" rel="avatar" url="http://examples.org/images/rwilliams" transclude="true">
+				<data name="prompt">Avatar</data>
+			</data>
+			<data name="template" rel="edit" url="http://example.org/friends/rwilliams" model="?full-name={full-name}&amp;email={email}&amp;blog={blog}&amp;avatar={avatar}" action="">
+				<data name="prompt">Update item</data>
+				<data name="data">
+					<data name="full-name"/>
+					<data name="prompt">Full Name</data>
+				</data>
+				<data name="data">
+					<data name="email"/>
+					<data name="prompt">Email</data>
+				</data>
+				<data name="data">
+					<data name="blog"/>
+					<data name="prompt">Blog</data>
+				</data>
+				<data name="data">
+					<data name="avatar"/>
+					<data name="prompt">Avatar</data>
+				</data>
+			</data>
+			<data rel="delete" url="http://example.org/friends/rwilliams" action="remove">
+				<data name="prompt">Delete item</data>
+			</data>
+		</data>
+		<data name="queries" rel="search" url="http://example.org/friends/search" model="?search={search}">
+			<data name="prompt">Search</data>
+			<data name="data">
+				<data name="search"/>
+			</data>
+		</data>
+		<data name="template" rel="create" url="http://example.org/friends/" model="?full-name={full-name}&amp;email={email}&amp;blog={blog}&amp;avatar={avatar}" action="append">
+			<data name="prompt">Add item</data>
+			<data name="data">
+				<data name="full-name"/>
+				<data name="prompt">Full Name</data>
+			</data>
+			<data name="data">
+				<data name="email"/>
+				<data name="prompt">Email</data>
+			</data>
+			<data name="data">
+				<data name="blog"/>
+				<data name="prompt">Blog</data>
+			</data>
+			<data name="data">
+				<data name="avatar"/>
+				<data name="prompt">Avatar</data>
+			</data>
+		</data>
+	</data>
+</uber>
