@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection>
+	<version>1.0</version>
+	<href>http://example.org/friends/</href>
+	<links>
+		<rel>feed</rel>
+		<href>http://example.org/friends/rss</href>
+	</links>
+	<items>
+		<href>http://example.org/friends/jdoe</href>
+		<data>
+			<name>full-name</name>
+			<value>J. Doe</value>
+			<prompt>Full Name</prompt>
+		</data>
+		<data>
+			<name>email</name>
+			<value>jdoe@example.org</value>
+			<prompt>Email</prompt>
+		</data>
+		<links>
+			<rel>blog</rel>
+			<href>http://examples.org/blogs/jdoe</href>
+			<prompt>Blog</prompt>
+		</links>
+		<links>
+			<rel>avatar</rel>
+			<href>http://examples.org/images/jdoe</href>
+			<prompt>Avatar</prompt>
+			<render>link</render>
+		</links>
+	</items>
+	<items>
+		<href>http://example.org/friends/msmith</href>
+		<data>
+			<name>full-name</name>
+			<value>M. Smith</value>
+			<prompt>Full Name</prompt>
+		</data>
+		<data>
+			<name>email</name>
+			<value>msmith@example.org</value>
+			<prompt>Email</prompt>
+		</data>
+		<links>
+			<rel>blog</rel>
+			<href>http://examples.org/blogs/msmith</href>
+			<prompt>Blog</prompt>
+		</links>
+		<links>
+			<rel>avatar</rel>
+			<href>http://examples.org/images/msmith</href>
+			<prompt>Avatar</prompt>
+			<render>image</render>
+		</links>
+	</items>
+	<items>
+		<href>http://example.org/friends/rwilliams</href>
+		<data>
+			<name>full-name</name>
+			<value>R. Williams</value>
+			<prompt>Full Name</prompt>
+		</data>
+		<data>
+			<name>email</name>
+			<value>rwilliams@example.org</value>
+			<prompt>Email</prompt>
+		</data>
+		<links>
+			<rel>blog</rel>
+			<href>http://examples.org/blogs/rwilliams</href>
+			<prompt>Blog</prompt>
+		</links>
+		<links>
+			<rel>avatar</rel>
+			<href>http://examples.org/images/rwilliams</href>
+			<prompt>Avatar</prompt>
+			<render>image</render>
+		</links>
+	</items>
+	<queries>
+		<rel>search</rel>
+		<href>http://example.org/friends/search</href>
+		<prompt>Search</prompt>
+		<data>
+			<name>search</name>
+			<value/>
+		</data>
+	</queries>
+	<template>
+		<data>
+			<name>full-name</name>
+			<value/>
+			<prompt>Full Name</prompt>
+		</data>
+		<data>
+			<name>email</name>
+			<value/>
+			<prompt>Email</prompt>
+		</data>
+		<data>
+			<name>blog</name>
+			<value/>
+			<prompt>Blog</prompt>
+		</data>
+		<data>
+			<name>avatar</name>
+			<value/>
+			<prompt>Avatar</prompt>
+		</data>
+	</template>
+</collection>
