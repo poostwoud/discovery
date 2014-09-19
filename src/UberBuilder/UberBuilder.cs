@@ -220,7 +220,7 @@ public sealed class UberData
         var first = true;
         if (!string.IsNullOrWhiteSpace(Id)) { json.Append(ToJsonAttribute("id", Id, first)); first = false; }
         if (!string.IsNullOrWhiteSpace(Name)) { json.Append(ToJsonAttribute("name", Name, first)); first = false; }
-        if (!string.IsNullOrWhiteSpace(Rel)) { json.Append(ToJsonAttribute("rel", string.Format("\"[{0}]\"", string.Join("\", \"", Rel.Split(new[] {" "}, StringSplitOptions.RemoveEmptyEntries))), first, true)); first = false; }
+        if (!string.IsNullOrWhiteSpace(Rel)) { json.Append(ToJsonAttribute("rel", string.Format("[\"{0}\"], string.Join("\", \"", Rel.Split(new[] {" "}, StringSplitOptions.RemoveEmptyEntries))), first, true)); first = false; }
         if (Url != null && !string.IsNullOrWhiteSpace(Url.ToString())) { json.Append(ToJsonAttribute("url", Url.ToString(), first)); first = false; }
         if (Action != UberActions.NotSet) { json.Append(ToJsonAttribute("action", Action.ToString().ToLower(), first)); first = false; }
         if (Transclude != UberTransclusion.NotSet) { json.Append(ToJsonAttribute("transclude", Transclude.ToString().ToLower(), first)); first = false; }
