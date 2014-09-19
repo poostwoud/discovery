@@ -161,9 +161,9 @@ public sealed class UberData
         return string.Format(" {0}=\"{1}\"", name, value);
     }
 
-    private static string ToJsonAttribute(string name, object value, bool first)
+    private static string ToJsonAttribute(string name, object value, bool first, bool array = false)
     {
-        return string.Format("{2} \"{0}\" : \"{1}\"", name, value, first ? string.Empty : ",");
+        return string.Format("{2} \"{0}\" : {1}", name, (array ? value : string.Format("\"{0}\"", value)), first ? string.Empty : ",");
     }
 
     public string ToXmlString()
@@ -220,10 +220,7 @@ public sealed class UberData
         var first = true;
         if (!string.IsNullOrWhiteSpace(Id)) { json.Append(ToJsonAttribute("id", Id, first)); first = false; }
         if (!string.IsNullOrWhiteSpace(Name)) { json.Append(ToJsonAttribute("name", Name, first)); first = false; }
-        if (!string.IsNullOrWhiteSpace(Rel)) 
-        { 
-            json.AppendFormat("{1} \"rel\" : [\"{0}\"]", string.Join("\", \"", Rel.Split(new[] {" "}, StringSplitOptions.RemoveEmptyEntries)), first ? string.Empty : ","); first = false;
-        }
+        if (!string.IsNullOrWhiteSpace(Rel)) { json.Append(ToJsonAttribute("rel", string.Format("\"[{0}]\"", string.Join("\", \"", Rel.Split(new[] {" "}, StringSplitOptions.RemoveEmptyEntries))), first, true)); first = false; }
         if (Url != null && !string.IsNullOrWhiteSpace(Url.ToString())) { json.Append(ToJsonAttribute("url", Url.ToString(), first)); first = false; }
         if (Action != UberActions.NotSet) { json.Append(ToJsonAttribute("action", Action.ToString().ToLower(), first)); first = false; }
         if (Transclude != UberTransclusion.NotSet) { json.Append(ToJsonAttribute("transclude", Transclude.ToString().ToLower(), first)); first = false; }
@@ -251,7 +248,7 @@ public sealed class UberData
         }
 
         //***** Close object with data objects;
-        json.Append(ToJsonAttribute("data", Data.ToJsonString(), first));
+        json.Append(ToJsonAttribute("data", Data.ToJsonString(), first, true));
             
         //***** Close object;
         json.Append("}");
