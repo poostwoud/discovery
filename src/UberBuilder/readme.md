@@ -1,6 +1,6 @@
 UberBuilder.cs
 --------------
-A simple builder class to help constructing UBER messages and output them as XML or JSON strings for testing. 
+A simple builder class to help constructing UBER messages and output them as XML or JSON strings for testing. Constructing the XML and JSON representations is not really high tech and could probably be done in a much smarter way. The goal was to prevent the use of "non-default" references like JSON.NET or specific System libraries.
 
 Nothing fancy, just type something like (based on the examples on the UBER format documentation https://rawgit.com/mamund/media-types/master/uber-hypermedia.html):
 
