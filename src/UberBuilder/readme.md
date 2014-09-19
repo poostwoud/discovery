@@ -4,7 +4,7 @@ A simple builder class to help constructing UBER messages and output them as XML
 
 Nothing fancy, just type something like (based on the examples on the UBER format documentation https://rawgit.com/mamund/media-types/master/uber-hypermedia.html):
 
-'''csharp
+```csharp
 //***** Create UBER builder;
 var uber = new UberBuilder();
 
@@ -24,11 +24,11 @@ uber.ToXmlString();
 
 //***** Output as JSON;
 uber.ToJsonString();
-'''
+```
 
 And it will output:
 
-'''xml
+```xml
 <uber version="1.0">
 	<data rel="self" url="http://example.org/"/>
 	<data name="list" rel="collection" url="http://example.org/list/"/>
@@ -46,9 +46,9 @@ And it will output:
 		<data name="dump">http://example.org/debug/1</data>
 	</error>
 </uber>
-'''
+```
 
-'''json
+```json
 {
 	"uber" :
 	{
@@ -119,4 +119,4 @@ And it will output:
 		]
 	}
 }
-'''
+```
