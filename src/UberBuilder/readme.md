@@ -53,31 +53,27 @@ And it will output:
 	"uber" :
 	{
 		"version" : "1.0",
-		"data" : 
-		[
+		"data" : [
 			{
-				"rel" : "[self]",
+				"rel" : ["self"],
 				"url" : "http://example.org/"
 			},
 			{
 				"name" : "list",
-				"rel" : "[collection]",
+				"rel" : ["collection"],
 				"url" : "http://example.org/list/"
 			},
 			{
 				"name" : "search",
-				"rel" : "[search",
-				"collection]",
+				"rel" : ["search", "collection"],
 				"url" : "http://example.org/search",
 				"model" : "{title}"
 			},
 			{
 				"name" : "todo",
-				"rel" : "[item",
-				"http://example.org/rels/todo]",
+				"rel" : ["item", "http://example.org/rels/todo"],
 				"url" : "http://example.org/list/1",
-				"data" : 
-				[
+				"data" : [
 					{
 						"name" : "title",
 						"value" : "Clean House"
@@ -90,11 +86,9 @@ And it will output:
 			},
 			{
 				"name" : "todo",
-				"rel" : "[item",
-				"http://example.org/rels/todo]",
+				"rel" : ["item", "http://example.org/rels/todo"],
 				"url" : "http://example.org/list/2",
-				"data" : 
-				[
+				"data" : [
 					{
 						"name" : "title",
 						"value" : "Paint the fence"
@@ -106,8 +100,7 @@ And it will output:
 				]
 			}
 		],
-		"error" : 
-		[
+		"error" : [
 			{
 				"name" : "code",
 				"value" : "q1w2e3"
