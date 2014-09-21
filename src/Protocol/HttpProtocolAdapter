@@ -1,0 +1,168 @@
+	public sealed class HttpProtocolAdapter : IProtocol
+	{
+		#region IProtocol Members
+
+		public void Append()
+		{
+			throw new NotImplementedException();
+		}
+
+		public void Partial()
+		{
+			throw new NotImplementedException();
+		}
+
+		public string Read(Uri uri, string userName = "", string password = "")
+		{
+			//*****
+			var uber = new UberBuilder();
+
+			//*****
+			try
+			{
+				//*****
+				var request = (HttpWebRequest) WebRequest.Create(uri);
+				request.Method = "GET";
+
+				//***** Force Basic Authorization for now (assume empty password is allowed);
+				if (!string.IsNullOrWhiteSpace(userName))
+					request.Headers["Authorization"] = "Basic " + Convert.ToBase64String(Encoding.Default.GetBytes(userName + ":" + password));
+
+				//***** TODO:Allow to pass UserAgent? Most APIs dont seem to allow "agentless" calls;
+				request.UserAgent = "Discovery";
+
+				/*request.Credentials = new NetworkCredential(userName, password);
+				request.PreAuthenticate = true;*/
+
+				//*****
+				Version protocolVersion = null;
+				int statusCode = -1;
+				string statusDescription;
+				WebHeaderCollection headers = null;
+				
+				string entityEncoding;
+				string entityType;
+				long entityLength;
+				string entityBody;
+
+				//***** Get response;
+				using (var response = (HttpWebResponse) request.GetResponse())
+				{
+					//*****
+					protocolVersion = response.ProtocolVersion;
+					statusCode = Convert.ToInt32(response.StatusCode);
+					statusDescription = response.StatusDescription;
+
+					//*****
+					headers = response.Headers;
+
+					//***** TODO:Get ;charset when for content encoding;
+					entityType = response.ContentType;
+					entityEncoding = response.ContentEncoding;
+					entityLength = response.ContentLength;
+
+					//***** Get response body;
+					//***** TODO:RFC-2616:There is no default encoding => Don't apply, use StreamReader auto determine;
+					var encoding = Encoding.GetEncoding(string.IsNullOrWhiteSpace(entityEncoding) ? "utf-8" : entityEncoding);
+
+					//***** TODO:What about binary data? Is this relevant?
+					/*var buffer = new byte[4096];
+					int bytesRead;
+					using (var bodyStream = response.GetResponseStream())
+						while ((bytesRead = bodyStream.Read(buffer, 0, buffer.Length)) > 0)
+							entityBody.Append(buffer);*/
+
+					using (var bodyReader = new StreamReader(response.GetResponseStream(), encoding))
+						entityBody = bodyReader.ReadToEnd();
+				}
+
+				//***** Build HTTP response message;
+				var responseElement = new UberData { Name = "response" };
+				uber.Data.Add(responseElement);
+			
+				//*****
+				var protocolElement = new UberData { Name = "statusLine", Rel = "format-documentation", Url = new Uri("http://www.w3.org/Protocols/rfc2616/rfc2616-sec6.html") };
+				protocolElement.Data.Add(new UberData { Name = "protocolName", Value = "HTTP" });
+				protocolElement.Data.Add(new UberData { Name = "protocolVersion", Value = protocolVersion });
+				protocolElement.Data.Add(new UberData { Name = "statusCode", Value = statusCode });
+				protocolElement.Data.Add(new UberData { Name = "statusDescription", Value = statusDescription });
+
+				responseElement.Data.Add(protocolElement);
+
+				//*****
+				var headersElement = new UberData { Name = "headers" };
+				responseElement.Data.Add(headersElement);
+				foreach (var key in headers.AllKeys)
+				{
+					var headerElement = new UberData { Name = key };
+					foreach (var value in headers.GetValues(key))
+					{
+						var valueElement = new UberData { Value = value };
+						headerElement.Data.Add(valueElement);
+					}
+					headersElement.Data.Add(headerElement);
+				}
+				
+				//*****
+				var entityElement = new UberData { Name = "entity" };
+				responseElement.Data.Add(entityElement);
+
+				//*****
+				entityElement.Data.Add(new UberData { Name = "encoding", Value = entityEncoding });
+				entityElement.Data.Add(new UberData { Name = "type", Value = entityType });
+				entityElement.Data.Add(new UberData { Name = "body", Value = entityBody });
+				entityElement.Data.Add(new UberData { Name = "length", Value = entityLength });
+			}
+			catch (WebException wex)
+			{
+				if (wex.Status == WebExceptionStatus.ProtocolError)
+				{
+					var response = (HttpWebResponse)wex.Response;
+					var protocolElement = new UberData { Name = "statusLine", Rel = "format-documentation", Url = new Uri("http://www.w3.org/Protocols/rfc2616/rfc2616-sec6.html") };
+					protocolElement.Data.Add(new UberData { Name = "protocolName", Value = "HTTP" });
+					protocolElement.Data.Add(new UberData { Name = "protocolVersion", Value = response.ProtocolVersion });
+					protocolElement.Data.Add(new UberData { Name = "statusCode", Value = Convert.ToInt32(response.StatusCode) });
+					protocolElement.Data.Add(new UberData { Name = "statusDescription", Value = response.StatusDescription });
+					uber.Error.Add(protocolElement);
+				}
+				else if (wex.Status == WebExceptionStatus.ServerProtocolViolation)
+				{
+					//***** NOTE:Exception was thrown when calling https://api.github.com
+					//***** Found solution on http://earljon.wordpress.com/2012/08/23/quickfix-server-committed-a-protocol-violation-error-in-net/
+					//***** Add <system.net><settings><httpWebRequest useUnsafeHeaderParsing="true"/></settings></system.net> to app.config
+					
+					//***** TODO:Add wex. Response is not available with this type of exception!
+				}
+			}
+			catch (Exception ex)
+			{
+				var exception = ex;
+				UberData dataElement = null;
+				while (exception != null)
+				{
+					var exceptionElement = new UberData { Name = "Message", Value = ex.Message };
+					if (dataElement != null) dataElement.Data.Add(exceptionElement);
+					exception = exception.InnerException;
+					dataElement = exceptionElement;
+				}
+				if (dataElement == null)
+					uber.Error.Add(new UberData { Value = "Unknown exception" });
+				else
+					uber.Error.Add(dataElement);
+			}
+
+			return uber.ToXmlString();
+		}
+
+		public void Remove()
+		{
+			throw new NotImplementedException();
+		}
+
+		public void Replace()
+		{
+			throw new NotImplementedException();
+		}
+
+		#endregion
+	}
