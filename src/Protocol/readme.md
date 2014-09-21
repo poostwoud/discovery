@@ -4,6 +4,7 @@ Converts a protocol response to UBER. For now only HTTP is supported.
 
 This will allow for the generic client to be able to read the parts of the message format that is send via the protocol header (think of profiles in the Link header) in a similar fashion as the "actual" message.
 
+For now there is only the HTTP adapter. It is still far from finished and only support the Read action for now.
 
 An example using the GitHub API:
 
