@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<dictionary name="collection">
+		<string name="version">1.0</string>
+		<string name="href" action="read" transclude="false" relation="self" prompt="Refresh">http://example.org/friends/</string>
+		<list name="links">
+			<string name="" action="read" transclude="false" relation="feed" prompt="">http://example.org/friends/rss</string>
+		</list>
+		<list name="items_list">
+			<dictionary name="items">
+				<string action="read" transclude="false" relation="item" prompt="Open">http://example.org/friends/jdoe</string>
+				<string name="full-name" prompt="Full Name">J. Doe</string>
+				<string name="email" prompt="Email">jdoe@example.org</string>
+				<list name="links">
+					<string name="" action="read" transclude="false" relation="blog" prompt="Blog">http://examples.org/blogs/jdoe</string>
+					<string name="" action="read" transclude="false" relation="avatar" prompt="Avatar">http://examples.org/images/jdoe</string>
+				</list>
+				<string action="remove" transclude="false" relation="delete" prompt="Delete">http://example.org/friends/jdoe</string>
+			</dictionary>
+			<dictionary name="items">
+				<string action="read" transclude="false" relation="item" prompt="Open">http://example.org/friends/msmith</string>
+				<string name="full-name" prompt="Full Name">M. Smith</string>
+				<string name="email" prompt="Email">msmith@example.org</string>
+				<list name="links">
+					<string name="" action="read" transclude="false" relation="blog" prompt="Blog">http://examples.org/blogs/msmith</string>
+					<string name="" action="read" transclude="false" relation="avatar" prompt="Avatar">http://examples.org/images/msmith</string>
+				</list>
+				<string action="remove" transclude="false" relation="delete" prompt="Delete">http://example.org/friends/msmith</string>
+			</dictionary>
+			<dictionary name="items">
+				<string action="read" transclude="false" relation="item" prompt="Open">http://example.org/friends/rwilliams</string>
+				<string name="full-name" prompt="Full Name">R. Williams</string>
+				<string name="email" prompt="Email">rwilliams@example.org</string>
+				<list name="links">
+					<string name="" action="read" transclude="false" relation="blog" prompt="Blog">http://examples.org/blogs/rwilliams</string>
+					<string name="" action="read" transclude="false" relation="avatar" prompt="Avatar">http://examples.org/images/rwilliams</string>
+				</list>
+				<string action="remove" transclude="false" relation="delete" prompt="Delete">http://example.org/friends/rwilliams</string>
+			</dictionary>
+		</list>
+		<list name="queries_list">
+			<dictionary name="" action="read" transclude="false" relation="search" prompt="Search" iri="http://example.org/friends/search">
+				<string name="search" prompt=""/>
+			</dictionary>
+		</list>
+		<dictionary name="template" action="append" transclude="false" relation="create" prompt="Add item" iri="http://example.org/friends/">
+			<string name="full-name" prompt="Full Name"/>
+			<string name="email" prompt="Email"/>
+			<string name="blog" prompt="Blog"/>
+			<string name="avatar" prompt="Avatar"/>
+		</dictionary>
+		<dictionary name="error"/>
+	</dictionary>
+</document>
