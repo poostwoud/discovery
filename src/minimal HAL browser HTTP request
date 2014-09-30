@@ -1,0 +1,4 @@
+GET http://haltalk.herokuapp.com/ HTTP/1.1
+Accept: application/hal+json, application/json, */*; q=0.01
+Host: haltalk.herokuapp.com
+X-Requested-With: XMLHttpRequest
