@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<_links>
+		<self>
+			<href>/</href>
+		</self>
+		<curies>
+			<name>ht</name>
+			<href>http://haltalk.herokuapp.com/rels/{rel}</href>
+			<templated>true</templated>
+		</curies>
+		<ht_users>
+			<href>/users</href>
+		</ht_users>
+		<ht_signup>
+			<href>/signup</href>
+		</ht_signup>
+		<ht_me>
+			<href>/users/{name}</href>
+			<templated>true</templated>
+		</ht_me>
+		<ht_latest-posts>
+			<href>/posts/latest</href>
+		</ht_latest-posts>
+	</_links>
+	<welcome>Welcome to a haltalk server.</welcome>
+	<hint_1>You need an account to post stuff..</hint_1>
+	<hint_2>Create one by POSTing via the ht:signup link..</hint_2>
+	<hint_3>Click the orange buttons on the right to make POST requests..</hint_3>
+	<hint_4>Click the green button to follow a link with a GET request..</hint_4>
+	<hint_5>Click the book icon to read docs for the link relation.</hint_5>
+</document>
