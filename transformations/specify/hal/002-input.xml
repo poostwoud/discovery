@@ -1,0 +1,2839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<_links>
+		<curies>
+			<name>ht</name>
+			<href>http://haltalk.herokuapp.com/rels/{rel}</href>
+			<templated>true</templated>
+		</curies>
+		<self>
+			<href>/posts/latest</href>
+		</self>
+	</_links>
+	<_embedded>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/4ff8b9b52e95950002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/mamund</href>
+					<title>Mike Amundsen</title>
+				</ht_author>
+			</_links>
+			<content>having fun w/ the HAL Talk explorer</content>
+			<created_at>2012-07-07T22:35:33+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/4ff9331ee85ace0002000001</href>
+				</self>
+				<ht_author>
+					<href>/users/mike</href>
+					<title>Mike Kelly</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/4ff8b9b52e95950002000004</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>Awesome! Good too see someone figured out how to post something!! ;)</content>
+			<created_at>2012-07-08T07:13:34+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/4fff350318fbbc0002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/david</href>
+					<title>david h</title>
+				</ht_author>
+			</_links>
+			<content>test</content>
+			<created_at>2012-07-12T20:35:15+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/500d888403270e0002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/solojavier</href>
+					<title>Javier Cervantes</title>
+				</ht_author>
+			</_links>
+			<content>This is a new post</content>
+			<created_at>2012-07-23T17:23:16+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/50339fcb9726840002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/mikehadlow</href>
+					<title>Mike Hadlow</title>
+				</ht_author>
+			</_links>
+			<content>HAL Browser rocks! I think I'm finally having the hypermedia enlightenment</content>
+			<created_at>2012-08-21T14:48:43+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5037ff3f6af5800002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/locks</href>
+					<title>Ricardo Mendes</title>
+				</ht_author>
+			</_links>
+			<content>Hello World</content>
+			<created_at>2012-08-24T22:25:03+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5037ff5e6af5800002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/locks</href>
+					<title>Ricardo Mendes</title>
+				</ht_author>
+			</_links>
+			<content>ha!, this stuff wwoorrkkeeddd</content>
+			<created_at>2012-08-24T22:25:34+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/503a70787124180002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/downchuck</href>
+					<title>Charles Pritchard.</title>
+				</ht_author>
+			</_links>
+			<content>Hello everyone!</content>
+			<created_at>2012-08-26T18:52:40+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/503de98a0ee39b0002000005</href>
+				</self>
+				<ht_author>
+					<href>/users/qfwfq</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>esto está interesante</content>
+			<created_at>2012-08-29T10:06:02+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5040713a5b65f30002000008</href>
+				</self>
+				<ht_author>
+					<href>/users/grosbobo</href>
+					<title>Le Gros Bobo</title>
+				</ht_author>
+			</_links>
+			<content>Hello from Gros bobo</content>
+			<created_at>2012-08-31T08:09:30+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5040a65dd33e370002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/hbredel</href>
+					<title>Henning Bredel</title>
+				</ht_author>
+			</_links>
+			<content>First try to POST s/th</content>
+			<created_at>2012-08-31T11:56:13+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5040a741d33e370002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/hbredel</href>
+					<title>Henning Bredel</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/4ff8b9b52e95950002000004</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>just try to reply to a post ...</content>
+			<created_at>2012-08-31T12:00:01+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/50473b59f51e290002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/ahoi</href>
+					<title>Ahoi Mateh</title>
+				</ht_author>
+			</_links>
+			<content>Oi oi?</content>
+			<created_at>2012-09-05T11:45:29+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/506332f4d61be70002000001</href>
+				</self>
+				<ht_author>
+					<href>/users/Shaun%20Marko</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>This is a test</content>
+			<created_at>2012-09-26T16:53:08+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/506351d970e5b20002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/Mitchy</href>
+					<title>Mitchy Mitch</title>
+				</ht_author>
+			</_links>
+			<content>I posted it!</content>
+			<created_at>2012-09-26T19:04:57+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5075f7b959ff250002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/chrism</href>
+					<title>Chris Murphy</title>
+				</ht_author>
+			</_links>
+			<content>What's this then</content>
+			<created_at>2012-10-10T22:33:29+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/507edd36ed08770002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/jason</href>
+					<title>Jason Erickson</title>
+				</ht_author>
+			</_links>
+			<content>My first post!</content>
+			<created_at>2012-10-17T16:30:46+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/50a51997dfb5a60002000001</href>
+				</self>
+				<ht_author>
+					<href>/users/grosbobo</href>
+					<title>Le Gros Bobo</title>
+				</ht_author>
+			</_links>
+			<content>Hello back !!!!</content>
+			<created_at>2012-11-15T16:34:31+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/50aff2d03b13810002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/hjr3</href>
+					<title>Herman J. Radtke III</title>
+				</ht_author>
+			</_links>
+			<content>Hello world</content>
+			<created_at>2012-11-23T22:04:00+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/50b3e5d71161470002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/maarten</href>
+					<title>Fred Wilson</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/123123</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>Oh Hi there bob</content>
+			<created_at>2012-11-26T21:57:43+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/50b5761fd49a680002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/DaWa</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>Oh Hi there bob</content>
+			<created_at>2012-11-28T02:25:35+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/50c4d5f68646250002000001</href>
+				</self>
+				<ht_author>
+					<href>/users/stewart</href>
+					<title>Stewart Armbrecht</title>
+				</ht_author>
+			</_links>
+			<content>This is a test.</content>
+			<created_at>2012-12-09T18:18:30+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/50c4d6c38646250002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/stewart</href>
+					<title>Stewart Armbrecht</title>
+				</ht_author>
+			</_links>
+			<content>This is a second test.</content>
+			<created_at>2012-12-09T18:21:55+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/50d3192baf40190002000005</href>
+				</self>
+				<ht_author>
+					<href>/users/olistik</href>
+					<title>Maurizio De Magnis</title>
+				</ht_author>
+			</_links>
+			<content>Hello Hypermedia World!</content>
+			<created_at>2012-12-20T13:56:59+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/50e413c782066e0002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/javi</href>
+					<title>Javier</title>
+				</ht_author>
+			</_links>
+			<content>Hola a todos!!</content>
+			<created_at>2013-01-02T11:02:31+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/50e5aab2364a850002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/z</href>
+					<title>Z-Machine</title>
+				</ht_author>
+			</_links>
+			<content>FLERRRRRRRP</content>
+			<created_at>2013-01-03T15:58:42+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/50e5e6b66cbc1c0002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/jro</href>
+					<title>J. Rooooeder</title>
+				</ht_author>
+			</_links>
+			<content>jro likes http puts</content>
+			<created_at>2013-01-03T20:14:46+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/50f7e442adb3d50002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/cliff</href>
+					<title>Cliff</title>
+				</ht_author>
+			</_links>
+			<content>something brief and witty</content>
+			<created_at>2013-01-17T11:45:06+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/50f7faebadb3d50002000006</href>
+				</self>
+				<ht_author>
+					<href>/users/ipjo</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>Yay</content>
+			<created_at>2013-01-17T13:21:47+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/50f82bedadb3d50002000009</href>
+				</self>
+				<ht_author>
+					<href>/users/stle</href>
+					<title>stle</title>
+				</ht_author>
+			</_links>
+			<content>Oh Hi there bob</content>
+			<created_at>2013-01-17T16:50:53+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/50f82ecdadb3d5000200000a</href>
+				</self>
+				<ht_author>
+					<href>/users/stle</href>
+					<title>stle</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/50f82bedadb3d50002000009</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>link to other post</content>
+			<created_at>2013-01-17T17:03:09+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/50f92984b839b20002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/mvila</href>
+					<title>Manuel Vila</title>
+				</ht_author>
+			</_links>
+			<content>Good job!</content>
+			<created_at>2013-01-18T10:52:52+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/50f98e16ecc6410002000009</href>
+				</self>
+				<ht_author>
+					<href>/users/newnewman88377</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>First post made by newnewman88377, hazzah.</content>
+			<created_at>2013-01-18T18:01:58+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/51014d8819b40a0002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/jim</href>
+					<title>jim jim jimmedy jim</title>
+				</ht_author>
+			</_links>
+			<content>Yet another test post</content>
+			<created_at>2013-01-24T15:04:40+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/510648acb7f95d0002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/freddy</href>
+					<title>Fred Wilson</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/123123</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>Oh Hi there bobby</content>
+			<created_at>2013-01-28T09:45:16+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/510a89573898220002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/ze</href>
+					<title>Ze</title>
+				</ht_author>
+			</_links>
+			<content>Ola</content>
+			<created_at>2013-01-31T15:10:15+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/511121b525adeb0002000001</href>
+				</self>
+				<ht_author>
+					<href>/users/ze</href>
+					<title>Ze</title>
+				</ht_author>
+			</_links>
+			<content>!!!</content>
+			<created_at>2013-02-05T15:13:57+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5125ba01f0b0b60002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/thepete</href>
+					<title>Pete Hodgson</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>http://google.com/s?xss</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>oh hai</content>
+			<created_at>2013-02-21T06:09:05+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/512647b0e470af0002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/richlund</href>
+					<title>Richard Lund</title>
+				</ht_author>
+			</_links>
+			<content>Testing, testing</content>
+			<created_at>2013-02-21T16:13:36+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/512fb6d8490de70002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/lexa</href>
+					<title>Alexey</title>
+				</ht_author>
+			</_links>
+			<content>Here's a message for Alexey I guess...</content>
+			<created_at>2013-02-28T19:58:16+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5139d0b930b1220002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/sean</href>
+					<title>sean</title>
+				</ht_author>
+			</_links>
+			<content>hello there</content>
+			<created_at>2013-03-08T11:51:21+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/513ee108b9edfa0002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/rcousens</href>
+					<title>RCOUSENS</title>
+				</ht_author>
+			</_links>
+			<content>Hello Shane!</content>
+			<created_at>2013-03-12T08:02:16+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5141b1462dab3d0002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/markvdv</href>
+					<title>Mark van der Velden</title>
+				</ht_author>
+			</_links>
+			<content>Just making conversation.</content>
+			<created_at>2013-03-14T11:15:18+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5141b2582dab3d0002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/markvdv</href>
+					<title>Mark van der Velden</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/4ff9331ee85ace0002000001</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>It's obvious once you know how it works!</content>
+			<created_at>2013-03-14T11:19:52+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/514a697fc4f2940002000007</href>
+				</self>
+				<ht_author>
+					<href>/users/joyce</href>
+					<title>Joyce Campbell</title>
+				</ht_author>
+			</_links>
+			<content>My first post.</content>
+			<created_at>2013-03-21T01:59:27+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5152690050bd690002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/fido</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>Bow wow! (Hello world!)</content>
+			<created_at>2013-03-27T03:35:28+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5172d4038312680002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/yach17</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>cooool ;)</content>
+			<created_at>2013-04-20T17:44:35+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5177dcfc49ae100002000007</href>
+				</self>
+				<ht_author>
+					<href>/users/ggggg</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>test1</content>
+			<created_at>2013-04-24T13:24:12+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5179ada1e744480002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/drdamour</href>
+					<title>DaMour</title>
+				</ht_author>
+			</_links>
+			<content>damour is posting!</content>
+			<created_at>2013-04-25T22:26:41+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/518298f501bd810002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/bihi</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>OH HAI</content>
+			<created_at>2013-05-02T16:48:53+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/518327e9cbc9660002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/Geoff</href>
+					<title>G Dog</title>
+				</ht_author>
+			</_links>
+			<content>Wassup</content>
+			<created_at>2013-05-03T02:58:49+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/51892a24774e8d0002000008</href>
+				</self>
+				<ht_author>
+					<href>/users/smlz</href>
+					<title>Marco Schmalz</title>
+				</ht_author>
+			</_links>
+			<content>sdfsdf</content>
+			<created_at>2013-05-07T16:21:56+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/518e08257271a40002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/bb</href>
+					<title>bob bob</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/123123</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>abcdef</content>
+			<created_at>2013-05-11T08:58:13+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/519a85a558dc010002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/eljavo</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>Hello Magma!</content>
+			<created_at>2013-05-20T20:20:53+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/519e95fa5a781f0002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/alex</href>
+					<title>Fred Wilson</title>
+				</ht_author>
+			</_links>
+			<content>test</content>
+			<created_at>2013-05-23T22:19:38+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/519fd8ce209ea20002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/pboy</href>
+					<title>Party Boy</title>
+				</ht_author>
+			</_links>
+			<content>Party Time!</content>
+			<created_at>2013-05-24T21:17:02+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/51ab058c36abbd0002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/dschulten</href>
+					<title>Dietrich Schulten</title>
+				</ht_author>
+			</_links>
+			<content>My first post</content>
+			<created_at>2013-06-02T08:42:52+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/51acca8bbfd0590002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/madman</href>
+					<title>Mad Man</title>
+				</ht_author>
+			</_links>
+			<content>Oh my god</content>
+			<created_at>2013-06-03T16:55:39+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/51ad014cbfd0590002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/rulero</href>
+					<title>Ron Eron</title>
+				</ht_author>
+			</_links>
+			<content>Esto esta magnifico</content>
+			<created_at>2013-06-03T20:49:16+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/51ae18f562b2580002000006</href>
+				</self>
+				<ht_author>
+					<href>/users/solojavier1</href>
+					<title>Solo Javier 1</title>
+				</ht_author>
+			</_links>
+			<content>Contenido</content>
+			<created_at>2013-06-04T16:42:29+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/51ae43c562b2580002000008</href>
+				</self>
+				<ht_author>
+					<href>/users/auser</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>magma conf is having a great start</content>
+			<created_at>2013-06-04T19:45:09+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/51ae677962b258000200000a</href>
+				</self>
+				<ht_author>
+					<href>/users/wowzer</href>
+					<title>Rey Lero</title>
+				</ht_author>
+			</_links>
+			<content>hola mundo</content>
+			<created_at>2013-06-04T22:17:29+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/51afa3cb280c5d0002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/poqomchi</href>
+					<title>Andrew</title>
+				</ht_author>
+			</_links>
+			<content>Hello, silly world!</content>
+			<created_at>2013-06-05T20:47:07+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/51afa46c280c5d0002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/poqomchi</href>
+					<title>Andrew</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/51afa3cb280c5d0002000003</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>Hello to you too, Andrew! -World</content>
+			<created_at>2013-06-05T20:49:48+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/51afa4d3280c5d0002000005</href>
+				</self>
+				<ht_author>
+					<href>/users/poqomchi</href>
+					<title>Andrew</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/51ae677962b258000200000a</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>hola pues</content>
+			<created_at>2013-06-05T20:51:31+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/51b6f5bce192ef0002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/mogge</href>
+					<title>Fred Wilson</title>
+				</ht_author>
+			</_links>
+			<content>Oh Hi there bob</content>
+			<created_at>2013-06-11T10:02:36+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/51c9095b3737e10002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/froopyjacks</href>
+					<title>Froopy Jacks</title>
+				</ht_author>
+			</_links>
+			<content>Test pls.</content>
+			<created_at>2013-06-25T03:07:07+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/51ca5dd848d2600002000001</href>
+				</self>
+				<ht_author>
+					<href>/users/froopyjacks</href>
+					<title>Froopy Jacks</title>
+				</ht_author>
+			</_links>
+			<content>Test content</content>
+			<created_at>2013-06-26T03:19:52+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/51cb44e1df79cb0002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/abwhitler</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>testing a new comment</content>
+			<created_at>2013-06-26T19:45:37+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/51d2c5b1c532ee0002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/anderssch</href>
+					<title>Anders Schölander</title>
+				</ht_author>
+			</_links>
+			<content>Testing post</content>
+			<created_at>2013-07-02T12:21:05+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/51ddf9c4a00ab40002000007</href>
+				</self>
+				<ht_author>
+					<href>/users/fantastic</href>
+					<title>Fantastico Fantastic</title>
+				</ht_author>
+			</_links>
+			<content>Yehaw!!!!</content>
+			<created_at>2013-07-11T00:18:12+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/51de0312a00ab40002000009</href>
+				</self>
+				<ht_author>
+					<href>/users/fantastic</href>
+					<title>Fantastico Fantastic</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/4ff8b9b52e95950002000004</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>I'm replying...</content>
+			<created_at>2013-07-11T00:57:54+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/51e9af01be1cac0002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/andre</href>
+					<title>Andre Muis</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/4ff9331ee85ace0002000001</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>Success! Now I need to create an iOS library to parse HAL.</content>
+			<created_at>2013-07-19T21:26:25+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/51eadc55cbb20f0002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/mrk</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>( ^-^)b</content>
+			<created_at>2013-07-20T18:52:05+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/51edc0777489530002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/myuser</href>
+					<title>My Real User Name</title>
+				</ht_author>
+			</_links>
+			<content>Some post</content>
+			<created_at>2013-07-22T23:29:59+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5205401c5af141000200000a</href>
+				</self>
+				<ht_author>
+					<href>/users/asbjornenge</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>(.)(.)</content>
+			<created_at>2013-08-09T19:16:44+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5207fd89f27b410002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/bwayne</href>
+					<title>Bruce Wayne</title>
+				</ht_author>
+			</_links>
+			<content>I am Batman</content>
+			<created_at>2013-08-11T21:09:29+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5207fdb5f27b410002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/bwayne</href>
+					<title>Bruce Wayne</title>
+				</ht_author>
+			</_links>
+			<content>on second thought, I shouldn't tell people I am Batman</content>
+			<created_at>2013-08-11T21:10:13+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52081dee018c720002000001</href>
+				</self>
+				<ht_author>
+					<href>/users/bwayne</href>
+					<title>Bruce Wayne</title>
+				</ht_author>
+			</_links>
+			<content>another from the rest client</content>
+			<created_at>2013-08-11T23:27:42+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5213c9ade24c440002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/MCS</href>
+					<title>MCS</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/123123</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>Oh Hi there bob</content>
+			<created_at>2013-08-20T19:55:25+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5224f4170f80a50002000001</href>
+				</self>
+				<ht_author>
+					<href>/users/snow6oy</href>
+					<title>Gavin Johnson</title>
+				</ht_author>
+			</_links>
+			<content>hey hal, are you a robot or what</content>
+			<created_at>2013-09-02T20:24:55+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5227065e5593520002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/anshul10s</href>
+					<title>Anshul Gupta</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/123123</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>Oh Hi there bob</content>
+			<created_at>2013-09-04T10:07:26+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5228d6b56cd9a20002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/kenh</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>I actually figured out how to post!</content>
+			<created_at>2013-09-05T19:08:37+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52293c5f3f72c60002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/anshul</href>
+					<title>Anshul Gupta</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/123123</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>Oh Hi there bob</content>
+			<created_at>2013-09-06T02:22:23+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5232f6dee4b9c10002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/kjr</href>
+					<title>kjr</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/123123</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>kfdjgkldfj</content>
+			<created_at>2013-09-13T11:28:30+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/523394e086925c0002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/jackbeam</href>
+					<title>Jack Beam</title>
+				</ht_author>
+			</_links>
+			<content>yo yo</content>
+			<created_at>2013-09-13T22:42:40+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/523670eff0e6370002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/fred24</href>
+					<title>Fred 23</title>
+				</ht_author>
+			</_links>
+			<content>My first post</content>
+			<created_at>2013-09-16T02:46:07+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52397e97456ea80002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/ejsepra</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>testing123</content>
+			<created_at>2013-09-18T10:21:11+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52444ac2ec2dc1000200000a</href>
+				</self>
+				<ht_author>
+					<href>/users/jeffg</href>
+					<title>jeffg</title>
+				</ht_author>
+			</_links>
+			<content>did it work?</content>
+			<created_at>2013-09-26T14:54:58+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52444af5ec2dc1000200000b</href>
+				</self>
+				<ht_author>
+					<href>/users/gmoney</href>
+					<title>George H</title>
+				</ht_author>
+			</_links>
+			<content>Posting is fun and complicated!</content>
+			<created_at>2013-09-26T14:55:49+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52444b2bec2dc1000200000c</href>
+				</self>
+				<ht_author>
+					<href>/users/jeffg</href>
+					<title>jeffg</title>
+				</ht_author>
+			</_links>
+			<content>Wow, that was a long way to go for a stupid demo!</content>
+			<created_at>2013-09-26T14:56:43+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52445cceec2dc1000200000e</href>
+				</self>
+				<ht_author>
+					<href>/users/Jonathan</href>
+					<title>Jonathan Whitall</title>
+				</ht_author>
+			</_links>
+			<content>Hello, world!</content>
+			<created_at>2013-09-26T16:11:58+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/524472b4ec2dc10002000013</href>
+				</self>
+				<ht_author>
+					<href>/users/grant</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>attempt1</content>
+			<created_at>2013-09-26T17:45:24+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52447da3ec2dc10002000015</href>
+				</self>
+				<ht_author>
+					<href>/users/steve</href>
+					<title>Steve</title>
+				</ht_author>
+			</_links>
+			<content>Oh Hi there bob</content>
+			<created_at>2013-09-26T18:32:03+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5249da590c292c0002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/Jonathan</href>
+					<title>Jonathan Whitall</title>
+				</ht_author>
+			</_links>
+			<content>Oh Hi there bob</content>
+			<created_at>2013-09-30T20:08:57+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/524a50cca6eb730002000005</href>
+				</self>
+				<ht_author>
+					<href>/users/susmitha</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>supported http methods should have been there</content>
+			<created_at>2013-10-01T04:34:20+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/525bde1b3674aa0002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/stefan</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>Hello, World!</content>
+			<created_at>2013-10-14T12:05:47+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52657a773a3ae30002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/der</href>
+					<title>der fisch</title>
+				</ht_author>
+			</_links>
+			<content>hello der fisch</content>
+			<created_at>2013-10-21T19:03:19+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/526a5479413628000200000e</href>
+				</self>
+				<ht_author>
+					<href>/users/traverson</href>
+					<title>Bastian Krol</title>
+				</ht_author>
+			</_links>
+			<content>Hello! I'm Traverson, the Node.js module to work with hypermedia APIs. You can find out more about me at https://github.com/basti1302/traverson.</content>
+			<created_at>2013-10-25T11:22:33+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/526a5496413628000200000f</href>
+				</self>
+				<ht_author>
+					<href>/users/traverson</href>
+					<title>Bastian Krol</title>
+				</ht_author>
+			</_links>
+			<content>Hello! I'm Traverson, the Node.js module to work with hypermedia APIs. You can find out more about me at https://github.com/basti1302/traverson.</content>
+			<created_at>2013-10-25T11:23:02+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/526a54a34136280002000010</href>
+				</self>
+				<ht_author>
+					<href>/users/traverson</href>
+					<title>Bastian Krol</title>
+				</ht_author>
+			</_links>
+			<content>Hello! I'm Traverson, the Node.js module to work with hypermedia APIs. You can find out more about me at https://github.com/basti1302/traverson.</content>
+			<created_at>2013-10-25T11:23:15+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/526a552e4136280002000011</href>
+				</self>
+				<ht_author>
+					<href>/users/traverson</href>
+					<title>Bastian Krol</title>
+				</ht_author>
+			</_links>
+			<content>Hello! I'm Traverson, the Node.js module to work with hypermedia APIs. You can find out more about me at https://github.com/basti1302/traverson. This is just a test post. @mikekelly: Don't worry, this tests will only be run manually a few times here and there, I'll promise to not spam your haltalk server too much :-)</content>
+			<created_at>2013-10-25T11:25:34+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/526a56044136280002000012</href>
+				</self>
+				<ht_author>
+					<href>/users/traverson</href>
+					<title>Bastian Krol</title>
+				</ht_author>
+			</_links>
+			<content>Hello! I'm Traverson, the Node.js module to work with hypermedia APIs. You can find out more about me at https://github.com/basti1302/traverson. This is just a test post. @mikekelly: Don't worry, this tests will only be run manually a few times here and there, I'll promise to not spam your haltalk server too much :-)</content>
+			<created_at>2013-10-25T11:29:08+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/526a561c4136280002000013</href>
+				</self>
+				<ht_author>
+					<href>/users/traverson</href>
+					<title>Bastian Krol</title>
+				</ht_author>
+			</_links>
+			<content>Hello! I'm Traverson, the Node.js module to work with hypermedia APIs. You can find out more about me at https://github.com/basti1302/traverson. This is just a test post. @mikekelly: Don't worry, this tests will only be run manually a few times here and there, I'll promise to not spam your haltalk server too much :-)</content>
+			<created_at>2013-10-25T11:29:32+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/526a562a4136280002000014</href>
+				</self>
+				<ht_author>
+					<href>/users/traverson</href>
+					<title>Bastian Krol</title>
+				</ht_author>
+			</_links>
+			<content>Hello! I'm Traverson, the Node.js module to work with hypermedia APIs. You can find out more about me at https://github.com/basti1302/traverson. This is just a test post. @mikekelly: Don't worry, this tests will only be run manually a few times here and there, I'll promise to not spam your haltalk server too much :-)</content>
+			<created_at>2013-10-25T11:29:46+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/526a56454136280002000015</href>
+				</self>
+				<ht_author>
+					<href>/users/traverson</href>
+					<title>Bastian Krol</title>
+				</ht_author>
+			</_links>
+			<content>Hello! I'm Traverson, the Node.js module to work with hypermedia APIs. You can find out more about me at https://github.com/basti1302/traverson. This is just a test post. @mikekelly: Don't worry, this tests will only be run manually a few times here and there, I'll promise to not spam your haltalk server too much :-)</content>
+			<created_at>2013-10-25T11:30:13+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/526a58034136280002000016</href>
+				</self>
+				<ht_author>
+					<href>/users/traverson</href>
+					<title>Bastian Krol</title>
+				</ht_author>
+			</_links>
+			<content>Hello! I'm Traverson, the Node.js module to work with hypermedia APIs. You can find out more about me at https://github.com/basti1302/traverson. This is just a test post. @mikekelly: Don't worry, this tests will only be run manually a few times here and there, I'll promise to not spam your haltalk server too much :-)</content>
+			<created_at>2013-10-25T11:37:39+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52722f141319260002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/cris88dc</href>
+					<title>Cristian Darau</title>
+				</ht_author>
+			</_links>
+			<content>this is my first post here via HAL</content>
+			<created_at>2013-10-31T10:21:08+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/527231c01319260002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/cris88dc</href>
+					<title>Cristian Darau</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/52722f141319260002000002</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>and there it goes my second post as reply to the first one</content>
+			<created_at>2013-10-31T10:32:32+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5272424e1319260002000005</href>
+				</self>
+				<ht_author>
+					<href>/users/luci</href>
+					<title>Luci Sauca</title>
+				</ht_author>
+			</_links>
+			<content>i'll be back</content>
+			<created_at>2013-10-31T11:43:10+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/527242711319260002000006</href>
+				</self>
+				<ht_author>
+					<href>/users/luci</href>
+					<title>Luci Sauca</title>
+				</ht_author>
+			</_links>
+			<content>my second post here</content>
+			<created_at>2013-10-31T11:43:45+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/527242c81319260002000007</href>
+				</self>
+				<ht_author>
+					<href>/users/luci</href>
+					<title>Luci Sauca</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/5272424e1319260002000005</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>my third post</content>
+			<created_at>2013-10-31T11:45:12+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52799700dfae8f0002000006</href>
+				</self>
+				<ht_author>
+					<href>/users/KrisCarter</href>
+					<title>Kris Carter</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/123123</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>Oh Hi there bob</content>
+			<created_at>2013-11-06T01:10:24+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/527ac6131a73aa0002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/jelmer</href>
+					<title>Jelmer Kuperus</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/123123</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>Oh Hi there bob</content>
+			<created_at>2013-11-06T22:43:31+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/527d22046f219a0002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/traverson</href>
+					<title>Bastian Krol</title>
+				</ht_author>
+			</_links>
+			<content>Hello! I'm Traverson, the Node.js module to work with hypermedia APIs. You can find out more about me at https://github.com/basti1302/traverson. This is just a test post. @mikekelly: Don't worry, this tests will only be run manually a few times here and there, I'll promise to not spam your haltalk server too much :-)</content>
+			<created_at>2013-11-08T17:40:20+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5281d634786a310002000005</href>
+				</self>
+				<ht_author>
+					<href>/users/test2345345</href>
+					<title />
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/123123</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>Oh Hi there bob</content>
+			<created_at>2013-11-12T07:18:12+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5284a826d6c8080002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/lacho</href>
+					<title>The Lacho</title>
+				</ht_author>
+			</_links>
+			<content>Oh Hi there bob</content>
+			<created_at>2013-11-14T10:38:30+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52876245654ef60002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/peter</href>
+					<title>Fred Wilson</title>
+				</ht_author>
+			</_links>
+			<content>Oh Hi there peter</content>
+			<created_at>2013-11-16T12:17:09+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5287db2ef36ff80002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/traverson</href>
+					<title>Bastian Krol</title>
+				</ht_author>
+			</_links>
+			<content>Hello! I'm Traverson, the Node.js module to work with hypermedia APIs. You can find out more about me at https://github.com/basti1302/traverson. This is just a test post. @mikekelly: Don't worry, this tests will only be run manually a few times here and there, I'll promise to not spam your haltalk server too much :-)</content>
+			<created_at>2013-11-16T20:53:02+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52892e6b73f16d0002000001</href>
+				</self>
+				<ht_author>
+					<href>/users/daniel</href>
+					<title>Daniel</title>
+				</ht_author>
+			</_links>
+			<content>Greetings.</content>
+			<created_at>2013-11-17T21:00:27+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/528bb5f3455de90002000005</href>
+				</self>
+				<ht_author>
+					<href>/users/jfw</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>wooooooooo</content>
+			<created_at>2013-11-19T19:03:15+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/528ddd03cb3f290002000005</href>
+				</self>
+				<ht_author>
+					<href>/users/fooz</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>Ah salut ou bien</content>
+			<created_at>2013-11-21T10:14:27+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/528e4663cb3f29000200000a</href>
+				</self>
+				<ht_author>
+					<href>/users/traverson</href>
+					<title>Bastian Krol</title>
+				</ht_author>
+			</_links>
+			<content>Hello! I'm Traverson, the Node.js module to work with hypermedia APIs. You can find out more about me at https://github.com/basti1302/traverson. This is just a test post. @mikekelly: Don't worry, this tests will only be run manually a few times here and there, I'll promise to not spam your haltalk server too much :-)</content>
+			<created_at>2013-11-21T17:44:03+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5293e5f9ee43010002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/kanellov</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>At last!!! I made it</content>
+			<created_at>2013-11-26T00:06:17+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5293e682ee43010002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/kanellov</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>And now my second post!</content>
+			<created_at>2013-11-26T00:08:34+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/529527e9a361a00002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/childers</href>
+					<title>Carl Childers</title>
+				</ht_author>
+			</_links>
+			<content>Awright Dhen!</content>
+			<created_at>2013-11-26T22:59:53+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52960662b475e10002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/clowny</href>
+					<title>Clowny Clown Clown</title>
+				</ht_author>
+			</_links>
+			<content>First post</content>
+			<created_at>2013-11-27T14:49:06+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52974d27013dfd0002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/bogus</href>
+					<title>Sasha DiGulianek</title>
+				</ht_author>
+			</_links>
+			<content>Did I really manage to post ?</content>
+			<created_at>2013-11-28T14:03:19+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52975b35013dfd0002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/bogus</href>
+					<title>Sasha DiGulianek</title>
+				</ht_author>
+			</_links>
+			<content>I want another post, but created in more automated way - with credentials supplied</content>
+			<created_at>2013-11-28T15:03:17+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52a080a712b0f50002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/maude</href>
+					<title>Maude Williams</title>
+				</ht_author>
+			</_links>
+			<content>hidely ho</content>
+			<created_at>2013-12-05T13:33:27+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52a4b9d43a82cd0002000006</href>
+				</self>
+				<ht_author>
+					<href>/users/king100</href>
+					<title>Kingsley King</title>
+				</ht_author>
+			</_links>
+			<content>made a post</content>
+			<created_at>2013-12-08T18:26:28+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52a4bbd43a82cd0002000007</href>
+				</self>
+				<ht_author>
+					<href>/users/king100</href>
+					<title>Kingsley King</title>
+				</ht_author>
+			</_links>
+			<content>yet another</content>
+			<created_at>2013-12-08T18:35:00+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52b2e7329085260002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/mb</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>Oh Hi there bob</content>
+			<created_at>2013-12-19T12:31:46+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52c002039f4b8e0002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/alexisPlantin</href>
+					<title>Alexis Plantin</title>
+				</ht_author>
+			</_links>
+			<content>blabla</content>
+			<created_at>2013-12-29T11:05:39+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52c496e78b71d80002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/testuser</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>hello!</content>
+			<created_at>2014-01-01T22:29:59+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52c5db1c080b7c0002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/fkamogee</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>this is it</content>
+			<created_at>2014-01-02T21:33:16+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52cbdde17e456f0002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/kallekula</href>
+					<title>Kalle Kula</title>
+				</ht_author>
+			</_links>
+			<content>HAL is great!</content>
+			<created_at>2014-01-07T10:58:41+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52cbde4d7e456f0002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/kallekula</href>
+					<title>Kalle Kula</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>posts/52cbdde17e456f0002000002</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>It sure is!</content>
+			<created_at>2014-01-07T11:00:29+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52cf763b79b6a50002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/capiroto</href>
+					<title>Plus Money</title>
+				</ht_author>
+			</_links>
+			<content>WHADAFUQ</content>
+			<created_at>2014-01-10T04:25:31+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52e05f2ecb3d220002000009</href>
+				</self>
+				<ht_author>
+					<href>/users/fred25</href>
+					<title>fFred t213</title>
+				</ht_author>
+			</_links>
+			<content>Checking</content>
+			<created_at>2014-01-23T00:15:42+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52e513953bd7a00002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/rhodesjason</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>Posting a post.</content>
+			<created_at>2014-01-26T13:54:29+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52e9804b8307040002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/fred</href>
+					<title>Fred Wilson</title>
+				</ht_author>
+			</_links>
+			<content>Hello world</content>
+			<created_at>2014-01-29T22:27:23+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52f2c6d0b891c50002000010</href>
+				</self>
+				<ht_author>
+					<href>/users/stanley</href>
+					<title>Stan marsh</title>
+				</ht_author>
+			</_links>
+			<content>hello world</content>
+			<created_at>2014-02-05T23:18:40+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52f2c754b891c50002000012</href>
+				</self>
+				<ht_author>
+					<href>/users/stanley</href>
+					<title>Stan marsh</title>
+				</ht_author>
+			</_links>
+			<content>Oh Hi there bob</content>
+			<created_at>2014-02-05T23:20:52+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52f555b70177ba0002000007</href>
+				</self>
+				<ht_author>
+					<href>/users/jboone</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>Hello World!</content>
+			<created_at>2014-02-07T21:52:55+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52fb2de7fdae000002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/sukei</href>
+					<title>Quentin Schuler</title>
+				</ht_author>
+			</_links>
+			<content>Hello World</content>
+			<created_at>2014-02-12T08:16:39+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/52fd869016c7ff0002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/psiva</href>
+					<title>Pradeep Siva</title>
+				</ht_author>
+			</_links>
+			<content>Pradeeps first post</content>
+			<created_at>2014-02-14T02:59:28+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/530141924ca5df0002000005</href>
+				</self>
+				<ht_author>
+					<href>/users/mimiche</href>
+					<title />
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/123123</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>Oh Hi there bob</content>
+			<created_at>2014-02-16T22:54:10+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5305e5ef8becc90002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/username1234</href>
+					<title>Username1234</title>
+				</ht_author>
+			</_links>
+			<content>Hello Username1234</content>
+			<created_at>2014-02-20T11:24:31+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5307add94d4e800002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/mpj</href>
+					<title>Mike James</title>
+				</ht_author>
+			</_links>
+			<content>Posting</content>
+			<created_at>2014-02-21T19:49:45+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/530f5c6e2ab3d40002000007</href>
+				</self>
+				<ht_author>
+					<href>/users/adrianhopebailie</href>
+					<title>Adrian Hope-Bailie</title>
+				</ht_author>
+			</_links>
+			<content>Well, this is fun!</content>
+			<created_at>2014-02-27T15:40:30+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/530fee3a2ab3d40002000010</href>
+				</self>
+				<ht_author>
+					<href>/users/test</href>
+					<title>blah</title>
+				</ht_author>
+			</_links>
+			<content>test</content>
+			<created_at>2014-02-28T02:02:34+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/531794640091440002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/joshco</href>
+					<title>Josh Cohen</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>http://haltalk.herokuapp.com/posts/4ff8b9b52e95950002000004</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>test post with reply to</content>
+			<created_at>2014-03-05T21:17:24+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/531d88a490d1ed0002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/n3dst4</href>
+					<title>Neil de Carteret</title>
+				</ht_author>
+			</_links>
+			<content>such wow</content>
+			<created_at>2014-03-10T09:40:52+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53222051ccdcb70002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/MangyMutt</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>a simple post for my first post</content>
+			<created_at>2014-03-13T21:17:05+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/532220cfccdcb70002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/MangyMutt</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>
+				Apple's granted patents and patent applications over the last couple of months have revealed a significant interest in camera lens systems that attach to the iPhone's existing camera, enhancing its photo taking capabilities much like third-party lens attachment solutions from companies like Olloclip.
+				
+				In a newly published patent application (via Patently Apple), Apple explores a bayonet lens attachment mechanism to fix a separate lens to an iPhone. Bayonet is a type of pin-based of lens mount that is designed to precisely align the mechanical and electrical features between a lens and a body in a traditional camera, preventing the components from rotating.
+				
+			According to Apple, this attachment method is superior to other solutions such as a separate case that lenses can be mounted to or a magnetic attachment system that may not be strong enough to keep a lens attached while in motion. Apple describes both a case and a magnetic mount as &quot;undesirable&quot; and &quot;unsightly.&quot; </content>
+			<created_at>2014-03-13T21:19:11+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53258cd93906900002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/kay</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>when do you want to save to disk and when to a database?</content>
+			<created_at>2014-03-16T11:36:57+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5326f7dc6f0cfa0002000006</href>
+				</self>
+				<ht_author>
+					<href>/users/ntr</href>
+					<title>Neu Tron</title>
+				</ht_author>
+			</_links>
+			<content>example post</content>
+			<created_at>2014-03-17T13:25:48+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/532873287165560002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/valdo</href>
+					<title>Fred Wilson</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/123123</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>Oh Hi there bob</content>
+			<created_at>2014-03-18T16:24:08+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/532a95419bac230002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/aruna</href>
+					<title>Aruna</title>
+				</ht_author>
+			</_links>
+			<content>First post</content>
+			<created_at>2014-03-20T07:14:09+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/532b0c919bac230002000009</href>
+				</self>
+				<ht_author>
+					<href>/users/Alex</href>
+					<title>Alex K</title>
+				</ht_author>
+			</_links>
+			<content>Post 1</content>
+			<created_at>2014-03-20T15:43:13+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53300a28758d920002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/user987654321</href>
+					<title>A Long Number</title>
+				</ht_author>
+			</_links>
+			<content>This is my First Post</content>
+			<created_at>2014-03-24T10:34:16+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53300b4d758d920002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/user987654321</href>
+					<title>A Long Number</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/4ff8b9b52e95950002000004</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>I am replying</content>
+			<created_at>2014-03-24T10:39:09+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53306f5b758d920002000008</href>
+				</self>
+				<ht_author>
+					<href>/users/seb</href>
+					<title>Fred Wilson</title>
+				</ht_author>
+			</_links>
+			<content>Oh Hi there bob</content>
+			<created_at>2014-03-24T17:46:03+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53307064758d920002000009</href>
+				</self>
+				<ht_author>
+					<href>/users/seb</href>
+					<title>Fred Wilson</title>
+				</ht_author>
+			</_links>
+			<content>Another post</content>
+			<created_at>2014-03-24T17:50:28+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5334b885ea9ff50002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/chunkyb</href>
+					<title>C B Hunk</title>
+				</ht_author>
+			</_links>
+			<content>Test post</content>
+			<created_at>2014-03-27T23:47:17+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/533a4060180a3f0002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/hendriu</href>
+					<title>Andrea</title>
+				</ht_author>
+			</_links>
+			<content>my super test</content>
+			<created_at>2014-04-01T04:28:16+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/533a4238180a3f0002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/hendriu</href>
+					<title>Andrea</title>
+				</ht_author>
+			</_links>
+			<content>another great post!</content>
+			<created_at>2014-04-01T04:36:08+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53505e10d1d8640002000008</href>
+				</self>
+				<ht_author>
+					<href>/users/asdf</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>I wil conquery high garden</content>
+			<created_at>2014-04-17T23:04:48+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53516ae2ef269f0002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/scotttrinh</href>
+					<title>Scott Trinh</title>
+				</ht_author>
+			</_links>
+			<content>This is pretty cool! The Machine Web. Dun dun duh!</content>
+			<created_at>2014-04-18T18:11:46+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53567251ae1218000200000c</href>
+				</self>
+				<ht_author>
+					<href>/users/joe911</href>
+					<title>joe smtih</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/123123</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>Oh Hi there joe</content>
+			<created_at>2014-04-22T13:44:49+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/535e89708080230002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/djule5</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>I wanna talk too</content>
+			<created_at>2014-04-28T17:01:36+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53628836df9bcf0002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/isma</href>
+					<title>Joe Bloggs</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/123123</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>Oh Hi there bob</content>
+			<created_at>2014-05-01T17:45:26+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53672a4d5416880002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/johnddd</href>
+					<title>John Doe X</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/123123</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>Oh Hi there bob</content>
+			<created_at>2014-05-05T06:06:05+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/536a539b915f7e0002000001</href>
+				</self>
+				<ht_author>
+					<href>/users/djule5</href>
+					<title />
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/535e89708080230002000003</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>what's beef?</content>
+			<created_at>2014-05-07T15:39:07+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5371dec4d042b80002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/bobby</href>
+					<title>Fred Wilson</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/123123</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>Oh Hi there bob</content>
+			<created_at>2014-05-13T08:58:44+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/537de89384ef080002000006</href>
+				</self>
+				<ht_author>
+					<href>/users/lars</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>Oh Hi there</content>
+			<created_at>2014-05-22T12:07:47+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/537f110de5d9ec0002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/macku</href>
+					<title>Macku</title>
+				</ht_author>
+			</_links>
+			<content>test</content>
+			<created_at>2014-05-23T09:12:45+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5396b6e5addc330002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/mmm</href>
+					<title>ma mb mc</title>
+				</ht_author>
+			</_links>
+			<content>blah blah blah</content>
+			<created_at>2014-06-10T07:42:29+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/539f52574a6a3b0002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/mpj2</href>
+					<title>Mike James</title>
+				</ht_author>
+			</_links>
+			<content>Posting</content>
+			<created_at>2014-06-16T20:23:51+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53abd57a52c1510002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/mhallgren</href>
+					<title>Morgan Hallgren</title>
+				</ht_author>
+			</_links>
+			<content>Oh Hi there jesper</content>
+			<created_at>2014-06-26T08:10:34+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53b296f76af5c10002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/jarledb</href>
+					<title>Jarle Berentzen</title>
+				</ht_author>
+			</_links>
+			<content>Oh Hi there broadnet</content>
+			<created_at>2014-07-01T11:09:43+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53bb56e7d153b40002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/hello</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>Hello Jello Mellow</content>
+			<created_at>2014-07-08T02:26:47+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53c38bebdbed810002000001</href>
+				</self>
+				<ht_author>
+					<href>/users/dalibor</href>
+					<title>Dalibor Kozak</title>
+				</ht_author>
+			</_links>
+			<content>test</content>
+			<created_at>2014-07-14T07:51:07+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53c4fff27863750002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/davidGol</href>
+					<title>David Golias</title>
+				</ht_author>
+			</_links>
+			<content>This is my first post</content>
+			<created_at>2014-07-15T10:18:26+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53c500377863750002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/davidGol</href>
+					<title>David Golias</title>
+				</ht_author>
+			</_links>
+			<content>and my second post</content>
+			<created_at>2014-07-15T10:19:35+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53c7656fc930430002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/dertester</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>Eating steak all day</content>
+			<created_at>2014-07-17T05:55:59+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53ca0b93c210590002000006</href>
+				</self>
+				<ht_author>
+					<href>/users/davidoliver4</href>
+					<title>David Oliver</title>
+				</ht_author>
+			</_links>
+			<content>Oh Hi there David4</content>
+			<created_at>2014-07-19T06:09:23+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53cb4aa370d7ea0002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/crazyeddie</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>Hello</content>
+			<created_at>2014-07-20T04:50:43+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53ce4453312d830002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/uji</href>
+					<title>ADC</title>
+				</ht_author>
+			</_links>
+			<content>uji was here</content>
+			<created_at>2014-07-22T11:00:35+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53d6275517bab70002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/joebloggs</href>
+					<title>Joe Bloggs</title>
+				</ht_author>
+			</_links>
+			<content>This is Joe's first post</content>
+			<created_at>2014-07-28T10:35:01+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53d6517c17bab70002000005</href>
+				</self>
+				<ht_author>
+					<href>/users/braddls</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>Oh Hi there bob</content>
+			<created_at>2014-07-28T13:34:52+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53d6520b17bab70002000006</href>
+				</self>
+				<ht_author>
+					<href>/users/braddls</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>The path of the righteous man is beset on all sides by the inequities of the selfish and the tyranny of evil men. Blessed is he, who in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy my brothers. And you will know my name is the Lord when I lay my vengeance upon thee.</content>
+			<created_at>2014-07-28T13:37:15+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53d6a67564ede00002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/bradtest</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>this is my post biatch</content>
+			<created_at>2014-07-28T19:37:25+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53e386536b57bd0002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/damnhandy</href>
+					<title>Ryan J. McDonough</title>
+				</ht_author>
+			</_links>
+			<content>Trying some things out</content>
+			<created_at>2014-08-07T13:59:47+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53ec92819956a70002000002</href>
+				</self>
+				<ht_author>
+					<href>/users/oleks</href>
+					<title>Oleks Ber</title>
+				</ht_author>
+			</_links>
+			<content>just a test</content>
+			<created_at>2014-08-14T10:42:09+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53f1719659d4f50002000003</href>
+				</self>
+				<ht_author>
+					<href>/users/jberry2</href>
+					<title>John Berry</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/123123</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>Worm turns</content>
+			<created_at>2014-08-18T03:23:02+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53f90dad97d42b0002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/u1</href>
+					<title />
+				</ht_author>
+			</_links>
+			<content>Oh Hi there</content>
+			<created_at>2014-08-23T21:54:53+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/53fcbe14c0df650002000006</href>
+				</self>
+				<ht_author>
+					<href>/users/beanie</href>
+					<title>Beanie</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/123123</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>Oh Hi there Beanie</content>
+			<created_at>2014-08-26T17:04:20+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/54099ba419ec190002000005</href>
+				</self>
+				<ht_author>
+					<href>/users/jono_x</href>
+					<title>John Harnett</title>
+				</ht_author>
+			</_links>
+			<content>hello world</content>
+			<created_at>2014-09-05T11:16:52+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5409bc2019ec190002000009</href>
+				</self>
+				<ht_author>
+					<href>/users/jono_x</href>
+					<title>John Harnett</title>
+				</ht_author>
+			</_links>
+			<content>woah</content>
+			<created_at>2014-09-05T13:35:28+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5409c8e919ec19000200000d</href>
+				</self>
+				<ht_author>
+					<href>/users/duncan</href>
+					<title>Duncan Atkinson</title>
+				</ht_author>
+			</_links>
+			<content>moo</content>
+			<created_at>2014-09-05T14:30:01+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5409cc5b19ec19000200000f</href>
+				</self>
+				<ht_author>
+					<href>/users/simonl</href>
+					<title>Simon Lewis</title>
+				</ht_author>
+			</_links>
+			<content>A post</content>
+			<created_at>2014-09-05T14:44:43+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5409cf7419ec190002000010</href>
+				</self>
+				<ht_author>
+					<href>/users/duncan</href>
+					<title>Duncan Atkinson</title>
+				</ht_author>
+				<ht_in-reply-to>
+					<href>/posts/5409cc5b19ec19000200000f</href>
+				</ht_in-reply-to>
+			</_links>
+			<content>This is a reply to your post</content>
+			<created_at>2014-09-05T14:57:56+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/54132ab363369d0002000001</href>
+				</self>
+				<ht_author>
+					<href>/users/jono_x</href>
+					<title>John Harnett</title>
+				</ht_author>
+			</_links>
+			<content> yes</content>
+			<created_at>2014-09-12T17:17:39+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/541844b113aad70002000004</href>
+				</self>
+				<ht_author>
+					<href>/users/dan_b</href>
+					<title>dan_b</title>
+				</ht_author>
+			</_links>
+			<content>woohoo i managed to post!</content>
+			<created_at>2014-09-16T14:09:53+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/54210a6f6e9df20002000005</href>
+				</self>
+				<ht_author>
+					<href>/users/tuukka</href>
+					<title>Tuukka Mustonen</title>
+				</ht_author>
+			</_links>
+			<content>Kinda expected to find ht_posts from root and be able to post from there.... or to directly reply to a message (POST a reply). But oh well, this demo is pretty sweet anyway!</content>
+			<created_at>2014-09-23T05:51:43+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/54243fb91939030002000005</href>
+				</self>
+				<ht_author>
+					<href>/users/sillymoo</href>
+					<title>Fred Wilson's mum</title>
+				</ht_author>
+			</_links>
+			<content>hello</content>
+			<created_at>2014-09-25T16:15:53+00:00</created_at>
+		</ht_post>
+		<ht_post>
+			<_links>
+				<self>
+					<href>/posts/5425e004afd12b0002000012</href>
+				</self>
+				<ht_author>
+					<href>/users/dmaczka</href>
+					<title>darren</title>
+				</ht_author>
+			</_links>
+			<content>this is some amazing content</content>
+			<created_at>2014-09-26T21:52:04+00:00</created_at>
+		</ht_post>
+	</_embedded>
+</document>
