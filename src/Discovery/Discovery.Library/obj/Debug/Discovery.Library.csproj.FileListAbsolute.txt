@@ -1,0 +1,4 @@
+D:\Github\discovery\src\Discovery\Discovery.Library\bin\Debug\Discovery.Library.dll
+D:\Github\discovery\src\Discovery\Discovery.Library\bin\Debug\Discovery.Library.pdb
+D:\Github\discovery\src\Discovery\Discovery.Library\obj\Debug\Discovery.Library.dll
+D:\Github\discovery\src\Discovery\Discovery.Library\obj\Debug\Discovery.Library.pdb

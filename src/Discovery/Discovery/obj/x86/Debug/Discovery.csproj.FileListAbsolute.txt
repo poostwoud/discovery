@@ -1,0 +1,11 @@
+D:\Github\discovery\src\Discovery\Discovery\obj\x86\Debug\Discovery.FormMain.resources
+D:\Github\discovery\src\Discovery\Discovery\obj\x86\Debug\Discovery.Properties.Resources.resources
+D:\Github\discovery\src\Discovery\Discovery\obj\x86\Debug\Discovery.csproj.GenerateResource.Cache
+D:\Github\discovery\src\Discovery\Discovery\bin\Debug\Discovery.exe
+D:\Github\discovery\src\Discovery\Discovery\bin\Debug\Discovery.pdb
+D:\Github\discovery\src\Discovery\Discovery\obj\x86\Debug\Discovery.exe
+D:\Github\discovery\src\Discovery\Discovery\obj\x86\Debug\Discovery.pdb
+D:\Github\discovery\src\Discovery\Discovery\bin\Debug\Discovery.exe.config
+D:\Github\discovery\src\Discovery\Discovery\bin\Debug\Discovery.Library.dll
+D:\Github\discovery\src\Discovery\Discovery\bin\Debug\Discovery.Library.pdb
+D:\Github\discovery\src\Discovery\Discovery\obj\x86\Debug\Discovery.csprojResolveAssemblyReference.cache
