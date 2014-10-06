@@ -1,5 +1,6 @@
 using System;
 using System.Xml;
+using Discovery.Library.Format;
 
 namespace Discovery.Library.Protocol
 {
@@ -7,7 +8,7 @@ namespace Discovery.Library.Protocol
 	{
 		void Append();
 		void Partial();
-		IProtocolResponse Read(Uri uri, string userName = "", string password = "");
+		IProtocolResponse Read(Uri uri, string uriConfiguration, IFormatMarshaller formatMarshaller, string userName = "", string password = "");
 		void Remove();
 		void Replace();
 	}

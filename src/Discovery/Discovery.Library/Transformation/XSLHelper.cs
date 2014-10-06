@@ -8,7 +8,7 @@ using Discovery.Library.IO;
 
 namespace Discovery.Library.Transformation
 {
-	public static class XSLHelper
+	public static class XslHelper
 	{
 		/// <summary>
 		/// Transforms a XML file to another XML file using a XSL transformation.

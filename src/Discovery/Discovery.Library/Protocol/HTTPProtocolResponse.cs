@@ -2,19 +2,17 @@ using System.Xml;
 
 namespace Discovery.Library.Protocol
 {
-	public sealed class HTTPProtocolResponse : XmlDocument, IProtocolResponse
+	public sealed class HttpProtocolResponse : XmlDocument, IProtocolResponse
 	{
 		#region IProtocolResponse Members
 
-        public string MediaType
-        {
-            get 
-            {
-                var mediaTypeNode = this.SelectSingleNode("response/headers/header[@name='Content-Type']/mediaType");
-                if (mediaTypeNode == null) return string.Empty;
-                return mediaTypeNode.InnerText;
-            }
-        }
+		public string Protocol
+		{
+			//***** TODO:Retrieve from xml;
+			get { return "http"; } 
+		}
+
+    public string MediaType { get; internal set; }
 
 		public string Result
 		{
@@ -24,8 +22,8 @@ namespace Discovery.Library.Protocol
 			}
 		}
 
-        public string Raw { get; internal set; }
+    public string Raw { get; internal set; }
 
 		#endregion
-    }
+  }
 }
