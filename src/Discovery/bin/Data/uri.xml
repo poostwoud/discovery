@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<apis>
+	<api uri="http://haltalk.herokuapp.com/" name="HAL browser">
+		<mediaType>application/hal+json</mediaType>
+		<headers>
+			<header name="Accept">application/hal+json, application/json, */*; q=0.01</header>
+			<header name="X-Requested-With">XMLHttpRequest</header>
+		</headers>
+	</api>
+</apis>

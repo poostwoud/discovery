@@ -14,9 +14,9 @@ namespace Discovery
         {
             InitializeComponent();
 
-						TemporaryPath = ConfigurationManager.AppSettings["TemporaryPath"];
-						TransformationsPath = ConfigurationManager.AppSettings["TransformationsPath"];
-						DataPath = ConfigurationManager.AppSettings["DataPath"];
+						TemporaryPath = System.IO.Path.GetFullPath(ConfigurationManager.AppSettings["TemporaryPath"]);
+						TransformationsPath = System.IO.Path.GetFullPath(ConfigurationManager.AppSettings["TransformationsPath"]);
+						DataPath = System.IO.Path.GetFullPath(ConfigurationManager.AppSettings["DataPath"]);
         }
 
         private void ButtonGo_Click(object sender, EventArgs e)
