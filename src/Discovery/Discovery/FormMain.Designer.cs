@@ -201,6 +201,7 @@
 			this.WebBrowserDisplay.Size = new System.Drawing.Size(356, 471);
 			this.WebBrowserDisplay.TabIndex = 0;
 			this.WebBrowserDisplay.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.WebBrowserHTML_DocumentCompleted);
+			this.WebBrowserDisplay.Navigating += new System.Windows.Forms.WebBrowserNavigatingEventHandler(this.WebBrowserDisplay_Navigating);
 			// 
 			// label3
 			// 

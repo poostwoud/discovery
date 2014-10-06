@@ -40,8 +40,8 @@ namespace Discovery.Library.Protocol
 				//***** TODO:Factory + data format;
 				var allConfig = new XmlDocument();
 				allConfig.Load(uriConfiguration);
-				
-				var uriConfigNode = allConfig.SelectSingleNode(string.Format("apis/api[@uri='{0}']", uri));
+
+				var uriConfigNode = allConfig.SelectSingleNode(string.Format("apis/api[starts-with('{0}', @uri)]", uri));
 				var responseMediaTypeOverride = "";
 				if (uriConfigNode != null)
 				{
