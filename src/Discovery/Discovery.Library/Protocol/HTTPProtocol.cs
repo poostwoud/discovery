@@ -4,10 +4,11 @@ using System.Net;
 using System.Text;
 using System.Xml;
 using Discovery.Library.Extensions;
+using Discovery.Library.Format;
 
 namespace Discovery.Library.Protocol
 {
-	public sealed class HTTPProtocol : IProtocol
+	public sealed class HttpProtocol : IProtocol
     {
         #region IProtocol Members
 
@@ -21,10 +22,10 @@ namespace Discovery.Library.Protocol
 			throw new NotImplementedException();
 		}
 
-		public IProtocolResponse Read(Uri uri, string userName = "", string password = "")
+		public IProtocolResponse Read(Uri uri, string uriConfiguration, IFormatMarshaller formatMarshaller = null, string userName = "", string password = "")
 		{
 			//*****
-			var document = new HTTPProtocolResponse();
+			var document = new HttpProtocolResponse();
 
 			//*****
 			var responseElement = document.AppendElement("response");
@@ -33,7 +34,41 @@ namespace Discovery.Library.Protocol
 			try
 			{
 				//*****
-				var request = (HttpWebRequest) WebRequest.Create(uri);
+				var request = (HttpWebRequest)WebRequest.Create(uri);
+
+				//***** Test for uri configuration;
+				//***** TODO:Factory + data format;
+				var allConfig = new XmlDocument();
+				allConfig.Load(uriConfiguration);
+
+				var uriConfigNode = allConfig.SelectSingleNode(string.Format("apis/api[starts-with('{0}', @uri)]", uri));
+				var responseMediaTypeOverride = "";
+				if (uriConfigNode != null)
+				{
+					//***** Response media type override;
+					var mediaTypeNode = uriConfigNode.SelectSingleNode("mediaType");
+					if (mediaTypeNode != null)
+						responseMediaTypeOverride = mediaTypeNode.InnerText;
+
+					//***** Headers;
+					var headers = uriConfigNode.SelectNodes("headers/header");
+					foreach (XmlNode header in headers)
+					{
+						var headerName = header.Attributes["name"].InnerText;
+						var headerValue = header.InnerText;
+						switch (headerName.ToLower())
+						{
+							case "accept":
+								request.Accept = headerValue;
+								break;
+							default:
+								request.Headers.Add(headerName, headerValue);
+								break;
+						}
+					}
+				}
+
+				//*****
 				request.Method = "GET";
 
 				//***** Force Basic Authorization for now (assume empty password is allowed);
@@ -42,10 +77,6 @@ namespace Discovery.Library.Protocol
 
 				//***** TODO:Allow to pass UserAgent? Most APIs dont seem to allow "agentless" calls;
 				request.UserAgent = "Discovery";
-
-				//***** TODO:HAL browser requires XHTTP?
-				request.Accept = "application/hal+json, application/json, */*; q=0.01";
-				request.Headers.Add("X-Requested-With", "XMLHttpRequest");
 
 				/*request.Credentials = new NetworkCredential(userName, password);
 				request.PreAuthenticate = true;*/
@@ -127,22 +158,27 @@ namespace Discovery.Library.Protocol
 						using (var bodyReader = new StreamReader(response.GetResponseStream(), Encoding.GetEncoding(encodingName)))
 							entityBody = bodyReader.ReadToEnd();
 
+					//***** TODO:Override only when media type is format type?
+					var mediaType = responseMediaTypeOverride;
+					if (string.IsNullOrWhiteSpace(mediaType))
+					{
+						var mediaTypeNode = document.SelectSingleNode("response/headers/header[@name='Content-Type']/mediaType");
+						if (mediaTypeNode != null && string.IsNullOrWhiteSpace(mediaType))
+							mediaType = mediaTypeNode.InnerText.ToLower();
+						/*else if (mediaTypeNode == null && !string.IsNullOrWhiteSpace(responseMediaTypeOverride))
+							mediaType = responseMediaTypeOverride;*/
+					}
+
 					//*****
-					var mediaTypeNode = document.SelectSingleNode("response/headers/header[@name='Content-Type']/mediaType");
-					if (mediaTypeNode == null || string.IsNullOrWhiteSpace(mediaTypeNode.InnerText))
+					document.MediaType = mediaType;
+
+					//*****
+					if (string.IsNullOrWhiteSpace(mediaType))
 						entityElement.AppendElement("body", entityBody);
 					else
 					{
-						var mediaType = mediaTypeNode.InnerText.ToLower();
-						if (mediaType.EndsWith("xml"))
-							entityElement.AppendElement("body", entityBody, true);
-						else if (mediaType.EndsWith("json"))
-						{
-							var entityBodyFromJson = Transformation.JSONHelper.ConvertToXML(entityBody);
-							entityElement.AppendElement("body", entityBodyFromJson, true);
-						}
-						else
-							entityElement.AppendElement("body", entityBody);
+						var marshalledEntityBody = formatMarshaller.Marshal(mediaType, entityBody);
+						entityElement.AppendElement("body", marshalledEntityBody, true);
 					}
 
 					//***** When the content length is not provided
@@ -150,12 +186,12 @@ namespace Discovery.Library.Protocol
 
 					#endregion //***** Entity
 
-                    #region Raw
+          #region Raw
 
-                    document.Raw = string.Format("HTTP/{0} {1} {2}\r\n{3}{4}", response.ProtocolVersion, Convert.ToInt32(response.StatusCode), response.StatusDescription, response.Headers, entityBody);
+          document.Raw = string.Format("HTTP/{0} {1} {2}\r\n{3}{4}", response.ProtocolVersion, Convert.ToInt32(response.StatusCode), response.StatusDescription, response.Headers, entityBody);
 
-                    #endregion //***** Raw
-                }
+          #endregion //***** Raw
+				}
 			}
 			catch (WebException wex)
 			{

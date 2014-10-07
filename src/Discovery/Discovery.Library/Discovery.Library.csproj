@@ -41,18 +41,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Document.cs" />
     <Compile Include="Extensions\XMLExtensions.cs" />
+    <Compile Include="Format\IFormatMarshaller.cs" />
+    <Compile Include="Format\XmlMarshaller.cs" />
+    <Compile Include="IDocument.cs" />
     <Compile Include="IO\StringWriterEncoded.cs" />
+    <Compile Include="Pipeline.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Protocol\HTTPProtocol.cs" />
-    <Compile Include="Protocol\HTTPProtocolResponse.cs" />
+    <Compile Include="Protocol\HttpProtocol.cs" />
+    <Compile Include="Protocol\HttpProtocolResponse.cs" />
     <Compile Include="Protocol\IProtocol.cs" />
     <Compile Include="Protocol\IProtocolResponse.cs" />
-    <Compile Include="Transformation\JSONHelper.cs" />
-    <Compile Include="Transformation\XSLHelper.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="readme.md" />
+    <Compile Include="Protocol\ProtocolHandler.cs" />
+    <Compile Include="Transformation\XslHelper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
